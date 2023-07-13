@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Cho phép truy cập vị trí để lấy thông tin thời tiết</string>
 </dict>
 </plist>

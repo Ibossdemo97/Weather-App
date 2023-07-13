@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1D09182A53B67200E38D2B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D09172A53B67200E38D2B /* DataManager.swift */; };
 		EC2DA3AB2A526D7B006FFF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DA3AA2A526D7B006FFF97 /* AppDelegate.swift */; };
 		EC2DA3AD2A526D7B006FFF97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DA3AC2A526D7B006FFF97 /* SceneDelegate.swift */; };
 		EC2DA3AF2A526D7B006FFF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DA3AE2A526D7B006FFF97 /* ViewController.swift */; };
@@ -14,9 +15,14 @@
 		EC2DA3B52A526D7B006FFF97 /* Weather_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2DA3B32A526D7B006FFF97 /* Weather_App.xcdatamodeld */; };
 		EC2DA3B72A526D7C006FFF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2DA3B62A526D7C006FFF97 /* Assets.xcassets */; };
 		EC2DA3BA2A526D7C006FFF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2DA3B82A526D7C006FFF97 /* LaunchScreen.storyboard */; };
+		EC3C4E732A5D8D8600C766E7 /* VietNamMapWithHoangSaTruongSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C4E722A5D8D8600C766E7 /* VietNamMapWithHoangSaTruongSAViewController.swift */; };
+		EC3C4E752A5D8DA600C766E7 /* ForecastFiveDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C4E742A5D8DA600C766E7 /* ForecastFiveDayViewController.swift */; };
+		ECD7BAB42A5D983700DA29B4 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7BAB32A5D983700DA29B4 /* ForecastTableViewCell.swift */; };
+		ECD7BAB62A5D985000DA29B4 /* ForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7BAB52A5D985000DA29B4 /* ForecastCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC1D09172A53B67200E38D2B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		EC2DA3A72A526D7B006FFF97 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2DA3AA2A526D7B006FFF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC2DA3AC2A526D7B006FFF97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		EC2DA3B62A526D7C006FFF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2DA3B92A526D7C006FFF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2DA3BB2A526D7C006FFF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3C4E722A5D8D8600C766E7 /* VietNamMapWithHoangSaTruongSAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietNamMapWithHoangSaTruongSAViewController.swift; sourceTree = "<group>"; };
+		EC3C4E742A5D8DA600C766E7 /* ForecastFiveDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastFiveDayViewController.swift; sourceTree = "<group>"; };
+		ECD7BAB32A5D983700DA29B4 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
+		ECD7BAB52A5D985000DA29B4 /* ForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,8 @@
 			children = (
 				EC2DA3AA2A526D7B006FFF97 /* AppDelegate.swift */,
 				EC2DA3AC2A526D7B006FFF97 /* SceneDelegate.swift */,
-				EC2DA3AE2A526D7B006FFF97 /* ViewController.swift */,
+				ECD7BAB12A5D980A00DA29B4 /* Controller */,
+				EC1D09172A53B67200E38D2B /* DataManager.swift */,
 				EC2DA3B02A526D7B006FFF97 /* Main.storyboard */,
 				EC2DA3B62A526D7C006FFF97 /* Assets.xcassets */,
 				EC2DA3B82A526D7C006FFF97 /* LaunchScreen.storyboard */,
@@ -68,6 +79,26 @@
 				EC2DA3B32A526D7B006FFF97 /* Weather_App.xcdatamodeld */,
 			);
 			path = "Weather App";
+			sourceTree = "<group>";
+		};
+		ECD7BAB12A5D980A00DA29B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C4E722A5D8D8600C766E7 /* VietNamMapWithHoangSaTruongSAViewController.swift */,
+				EC2DA3AE2A526D7B006FFF97 /* ViewController.swift */,
+				EC3C4E742A5D8DA600C766E7 /* ForecastFiveDayViewController.swift */,
+				ECD7BAB22A5D981D00DA29B4 /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECD7BAB22A5D981D00DA29B4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ECD7BAB32A5D983700DA29B4 /* ForecastTableViewCell.swift */,
+				ECD7BAB52A5D985000DA29B4 /* ForecastCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +137,7 @@
 				};
 			};
 			buildConfigurationList = EC2DA3A22A526D7B006FFF97 /* Build configuration list for PBXProject "Weather App" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,9 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD7BAB42A5D983700DA29B4 /* ForecastTableViewCell.swift in Sources */,
 				EC2DA3B52A526D7B006FFF97 /* Weather_App.xcdatamodeld in Sources */,
 				EC2DA3AF2A526D7B006FFF97 /* ViewController.swift in Sources */,
+				EC3C4E752A5D8DA600C766E7 /* ForecastFiveDayViewController.swift in Sources */,
 				EC2DA3AB2A526D7B006FFF97 /* AppDelegate.swift in Sources */,
+				ECD7BAB62A5D985000DA29B4 /* ForecastCollectionViewCell.swift in Sources */,
+				EC3C4E732A5D8D8600C766E7 /* VietNamMapWithHoangSaTruongSAViewController.swift in Sources */,
+				EC1D09182A53B67200E38D2B /* DataManager.swift in Sources */,
 				EC2DA3AD2A526D7B006FFF97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +334,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +362,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
